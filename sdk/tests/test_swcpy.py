@@ -103,7 +103,7 @@ def test_list_teams():
     # Assert each item in the list is an instance of League
     for team in teams_response:
         assert isinstance(team, Team)
-    assert len(teams_response) == 20
+    assert len(teams_response) == 52
 
 
 
